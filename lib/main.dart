@@ -37,7 +37,7 @@ class _DicePageState extends State<DicePage> {
   Widget build(BuildContext context) {
     return Center(
       child: Row(
-        children: <Widget>[
+        children: [
           Expanded(
             child: TextButton(
               child: Image.asset(
